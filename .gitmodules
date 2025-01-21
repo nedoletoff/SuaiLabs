@@ -1,0 +1,6 @@
+[submodule "c_cpp_programs/lab1"]
+	path = c_cpp_programs/lab1
+	url = https://github.com/nedoletoff/lab1.git
+[submodule "c_cpp_programs/lab2"]
+	path = c_cpp_programs/lab2
+	url = https://github.com/nedoletoff/lab2.git
