@@ -1,2 +1,0 @@
-# kate18
-kate
