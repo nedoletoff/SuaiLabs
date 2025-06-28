@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>631</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="1">
+      <widget class="QLabel" name="key_decipher">
+       <property name="text">
+        <string>Key word</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPlainTextEdit" name="text_edit"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QTextBrowser" name="result_decipher_browser"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPlainTextEdit" name="cipher_text_edit"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="cipher_text">
+       <property name="text">
+        <string>Cipher text</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPlainTextEdit" name="key_word_cipher_edit"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="decipher_button">
+       <property name="text">
+        <string>Decipher</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="cipher_button">
+       <property name="text">
+        <string>Cipher</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="result_decipher">
+       <property name="text">
+        <string>Result decipher</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="key_cipher">
+       <property name="text">
+        <string>Key word</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="text">
+       <property name="text">
+        <string>Text</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QTextBrowser" name="textBrowser"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPlainTextEdit" name="key_word_decipher_edit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="result_cipher">
+       <property name="text">
+        <string>Result cipher</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Error</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
