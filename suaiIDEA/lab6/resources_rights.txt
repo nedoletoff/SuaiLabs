@@ -1,0 +1,13 @@
+report.docx	John Smith Lisa Jones Tom Wilson
+presentation.ppt	John Smith Karen Thompson
+budget.xlsx	John Smith Lisa Jones David Lee
+notes.txt	John Smith
+projectplan.doc	John Smith Lisa Jones Robert Green
+proposal.pdf	John Smith Lisa Jones Robert Green
+usermanual.docx	John Smith Lisa Jones Sarah Johnson Emily Davis
+agenda.pdf	John Smith Michael Brown Tom Wilson Maria Rodriguez
+meetingminutes.doc	John Smith
+invoice.pdf	John Smith David Lee Sarah Johnson Emily Davis Maria Rodriguez
+blank.pdf John Smith Jack Kim Alex Chen
+source.html	John Smith Rachel Hernandez Susan Taylor
+picture.png	John Smith  Peter Nguyen
