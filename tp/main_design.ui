@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menulab1">
+    <property name="title">
+     <string>labs</string>
+    </property>
+    <widget class="QMenu" name="menulab1_2">
+     <property name="title">
+      <string>lab1</string>
+     </property>
+     <addaction name="actionp1_1"/>
+     <addaction name="actionp1_2"/>
+    </widget>
+    <addaction name="menulab1_2"/>
+    <addaction name="actionp2_2"/>
+   </widget>
+   <addaction name="menulab1"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionp2_2">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>lab2</string>
+   </property>
+  </action>
+  <action name="actionp1_1">
+   <property name="text">
+    <string>part 1</string>
+   </property>
+  </action>
+  <action name="actionp1_2">
+   <property name="text">
+    <string>part 2</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

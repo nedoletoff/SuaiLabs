@@ -1,0 +1,14 @@
+2022-12-17 17:05:30 ERROR Name is empty
+Traceback (most recent call last):
+  File "/home/nedoletoff/Documents/tp/p1/first/main.py", line 78, in change
+    self.check_name()
+  File "/home/nedoletoff/Documents/tp/p1/first/main.py", line 28, in check_name
+    raise MyException("Name is empty")
+MyException.MyException: Name is empty
+2022-12-17 17:05:30 ERROR Name is empty
+Traceback (most recent call last):
+  File "/home/nedoletoff/Documents/tp/p1/first/main.py", line 78, in change
+    self.check_name()
+  File "/home/nedoletoff/Documents/tp/p1/first/main.py", line 28, in check_name
+    raise MyException("Name is empty")
+MyException.MyException: Name is empty
